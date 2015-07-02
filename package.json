@@ -1,0 +1,30 @@
+{
+  "name": "gulp-fast-wrapper",
+  "version": "0.0.1",
+  "description": "This wrapper uses `Buffer.concat` which is much faster than strings concatenation.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Ajaxy/gulp-fast-wrapper"
+  },
+  "keywords": [
+    "gulp",
+    "wrapper",
+    "header",
+    "footer",
+    "concat"
+  ],
+  "author": "Alexander Zinchuk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ajaxy/gulp-fast-wrapper/issues"
+  },
+  "homepage": "https://github.com/Ajaxy/gulp-fast-wrapper",
+  "dependencies": {
+    "gulp-util": "^3.0.6",
+    "through2": "^2.0.0"
+  }
+}
